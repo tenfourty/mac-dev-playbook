@@ -16,30 +16,33 @@ dotfiles_files:
   - .vimrc
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
   - autoconf
   - bash-completion
-  - chromedriver
-  - doxygen
   - gettext
   - git
   - gpg
   - iperf
+  - nmap
   - npm
   - nvm
   - ssh-copy-id
   - cowsay
   - readline
   - openssl
-  - pv
   - wget
+  - wrk
+  - highlight
+  - brew-cask-completion
+  - archey
+  - hugo
 
 homebrew_taps:
   - homebrew/core
   - caskroom/cask
+  - caskroom/drivers
+  - caskroom/fonts
   - homebrew/binary
   - homebrew/dupes
-  - homebrew/php
   - homebrew/versions
 
 homebrew_cask_appdir: /Applications
@@ -48,14 +51,53 @@ homebrew_cask_apps:
   - dropbox
   - firefox
   - google-chrome
-  - licecap
   - macvim
   - skitch
   - slack
+  - transmit
   - vagrant
   - virtualbox
+  - istat-menus
+  - flux
+  - aerial
+  - alfred
+  - blue-jeans-launcher
+  - cleanmymac
+  - insync
+  - libreoffice
+  - mailplane
+  - rocket-chat
+  - whatsapp
+  - blue-jeans-browser-plugin
+  - blue-jeans-launcher
+  - hyperdock
+  - spotify
+  - vlc
+  - transmission
+  - flash-player
+  - sketchup
+  - sonos
+  - xquartz
+  - viscosity
+  - font-overpass
+  - sourcetree
+
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps:
+  - { id: 747648890, name: "Telegram" }
+  - { id: 1039633667, name: "Irvue" }
+  - { id: 926036361, name: "LastPass" }
+  - { id: 577205158, name: "OnkyMote" }
+  - { id: 920404675, name: "Monodraw" }
+  - { id: 867299399, name: "OmniFocus" }
+  - { id: 405399194, name: "Kindle" }
+  - { id: 623795237, name: "Ulysses" }
+  - { id: 412386481, name: "VisualDiffer" }
+  - { id: 409789998, name: "Twitter" }
+  - { id: 406056744, name: "Evernote" }
+  - { id: 497799835, name: "XCode" }
+  - { id: 425955336, name: "Skitch" }
+  
 mas_email: ""
 mas_password: ""
