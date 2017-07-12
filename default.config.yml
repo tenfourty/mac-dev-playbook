@@ -35,6 +35,8 @@ homebrew_installed_packages:
   - brew-cask-completion
   - archey
   - hugo
+  - media-info
+  - libdvdcss
 
 homebrew_taps:
   - homebrew/core
@@ -57,6 +59,7 @@ homebrew_cask_apps:
   - transmit
   - vagrant
   - virtualbox
+  - virtualbox-extension-pack
   - istat-menus
   - flux
   - aerial
@@ -80,7 +83,14 @@ homebrew_cask_apps:
   - xquartz
   - viscosity
   - font-overpass
+  - font-liberation-sans
   - sourcetree
+  - handbrake
+  - xmind
+  - transmission-remote-gui
+  - the-unarchiver
+  - font-liberation-sans
+  - font-liberation-mono-for-powerline
 
 
 # See `geerlingguy.mas` role documentation for usage instructions.
