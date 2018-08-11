@@ -8,7 +8,7 @@ configure_osx: no
 
 dotfiles_repo: https://github.com/tenfourty/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Documents/dev/dotfiles
+dotfiles_repo_local_destination: ~/QJeremy/dev/dotfiles
 dotfiles_files:
   - .bash_profile
   - .gitconfig
